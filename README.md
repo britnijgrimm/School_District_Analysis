@@ -5,17 +5,17 @@ The scope of this analysis is to assist the school district in analyzing and rep
 
 In order to do so, we have replaced the cores for these ninth graders with notation “NaN’, or not a number. This allows us to retain the student data for reporting headcount and spending per student but calculate performance without their scores.
 
-![Data Summary](Dataframe_summary.png)
+![Figure 1](Resources/dataframe_summary.png)
 
 ## Results
 
 ### How is the district summary affected?
 The district summary, which summarizes the overall district budget and performance, appears largely resilient towards an alteration of this magnitude. As we have not eliminated any students or schools entirely from the dataset, our figures reflecting these totals and the total budget will remain the same. The average math score and percentage of students with passing math scores in this district have decreased slightly. Meanwhile, the average reading score and percentage of students with passing reading scores in this district have increased in nearly the same amount.
 
-![District Summary](District_summary.png)
+![Figure 2](Resources/district_summary.png)
 
 ### How is the school summary affected?
-![School Summary](School_summary.png)
+![Figure 3](Resources/school_summary.png)
 
 As demonstrated with the district summary, much of our data will not be affected by the removal of math and reading scores for the ninth-grade class at Thomas High School. The scores for students attending other schools within the district will not change. The scores for students attending Thomas High School and in grades ten through twelve will also remain the same. However, because we cannot confidently report scores for the ninth-grade students, the average scores and the percentage of students with passing scores in this math and reading disciplines will change for Thomas High School as a whole.
 
